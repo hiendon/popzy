@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "minify": "terser kamma.js -o kamma.min.js && csso kamma.css -o kamma.min.css"
+  },
+  "dependencies": {
+    "csso-cli": "^4.0.2",
+    "terser": "^5.43.1"
+  }
+}
