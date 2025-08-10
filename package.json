@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "minify": "terser kamma.js -o kamma.min.js && csso kamma.css -o kamma.min.css"
+    "minify": "terser src/popzy.js -o popzy.min.js && csso src/popzy.css -o popzy.min.css"
   },
   "dependencies": {
     "csso-cli": "^4.0.2",
